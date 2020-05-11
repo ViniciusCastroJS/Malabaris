@@ -1,0 +1,195 @@
+@media screen and (max-width: 375px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Quicksand', sans-serif;
+      
+    }
+
+    body, html {
+        height: 100%;
+        width: 100%;
+      }
+
+    .fundo{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: url(../../img/palhaço.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .filtro{
+        position: absolute;
+        width: 375px;
+        height: 667px;
+        background: linear-gradient(159.12deg, #FC66A4 0%, #993CFF 98.7%);
+        opacity: 0.8;
+    }
+
+    button.btnevent{
+        position: absolute;
+        width: 271px;
+        height: 50px;
+        left: 54px;
+        top: 569px;
+        background: transparent;
+        color: white;
+        border: 1px solid #FFFFFF;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+
+    div.list{
+     
+        position: absolute;
+        width: 267px;
+        height: 455px;
+        left: 54px;
+        top: 82px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.17);
+        border-radius: 5px;
+    }
+
+    div.list h3.manha{
+        position: absolute;
+        width: 58px;
+        height: 23px;
+        left: 99px;
+        top: 53px;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+        opacity: 0.3;
+    }
+
+    div.list div.linha{
+        position: absolute;
+        width: 247px;
+        height: 10px;
+        left: 9px;
+        top: 135px;
+
+        background: #E9E9E9;
+        border-radius: 20px;
+    }
+    
+    div.list h3.tarde{
+        position: absolute;
+        width: 58px;
+        height: 23px;
+        left: 99px;
+        top: 193px;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+        opacity: 0.3;
+    }
+
+    div.list div.linha2{
+        position: absolute;
+        width: 247px;
+        height: 10px;
+        left: 9px;
+        top: 285px;
+        background: #E9E9E9;
+        border-radius: 20px;
+    }
+    
+    div.list div.not-box{
+        position: absolute;
+        width: 247px;
+        height: 107px;
+        left: 9px;
+        top: 326px;
+        background: #C4C4C4;
+        opacity: 0.3;
+        border-radius: 5px;
+    }
+
+    div.list h3.notavailable{
+        position: absolute;
+        width: 145px;
+        height: 23px;
+        left:65px;
+        top: 365px;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;        
+        opacity: 0.3;
+    }
+
+    .Card {
+        position: absolute;
+        width: 245px;
+        height: 113px;
+        left: 10px;
+        top:200px;
+        background: #F883BA;
+        border-radius: 5px; 
+    }
+
+    .Card .nome {
+        position: absolute;
+        width: 145px;
+        height: 25px;
+        left: 5px;
+        top: 20px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .Card .local {
+        position: absolute;
+        width: 170px;
+        height: 18px;
+        left: 12px;
+        top: 56px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .AddEvento{
+        position: absolute;
+        width: 1333px;
+        height: 1487px;
+        left: 23px;
+        top: 82px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.17);
+        border-radius: 5px;
+    }
+
+    .AddEvento .cadastro{
+        position: absolute;
+        width: 161px;
+        height: 25px;
+        left: 39px;
+        top: 100px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        color: #F883BA;
+    }
+
+
+}

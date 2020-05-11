@@ -1,0 +1,332 @@
+@media screen and (max-width: 375px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Quicksand', sans-serif;
+      
+    }
+
+    body, html {
+        height: 100%;
+        width: 100%;
+      }
+
+    .fundo{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: url(../../img/palhaço.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .filtro{
+        position: absolute;
+        width: 375px;
+        height: 667px;
+        background: linear-gradient(159.12deg, #FC66A4 0%, #993CFF 98.7%);
+        opacity: 0.8;
+    }
+
+    #criar{
+        position: absolute;
+        width: 170px;
+        height: 38px;
+        left: 110px;
+        top: 36px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    #white-box{
+        position: absolute;
+        width: 344px;
+        height: 518px;
+        left: 16px;
+        top: 113px;
+
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.17);
+        border-radius: 5px;
+    }
+
+    .category{
+        position: absolute;
+        width: 154px;
+        height: 18px;
+        left: 45px;
+        top: 40px;
+
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+
+        color: #565656;
+    }
+
+    #category{
+        position: absolute;
+        width: 271px;
+        height: 40px;
+        left: 37px;
+        top: 62px;
+        border: 1px solid #CCCCCC;
+        box-sizing: border-box;
+        border-radius: 5px;
+        text-align: center;
+        color: #EE7EC2;
+    }
+
+    #days{
+        position: absolute;
+        width: 217px;
+        height: 18px;
+        left: 45px;
+        top: 122px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #565656;
+    }
+
+
+    .btn-monday{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: -10px;
+        top: 27px;
+        background: #EEEEEE;
+        color:white;
+        border-radius: 50%;
+        border: none
+    }
+
+    #days button:active{
+        background: linear-gradient(180deg, rgba(237, 125, 194, 0.8) 0%,
+        rgba(236, 125, 194, 0.8) 100%);
+    }
+
+    .btn-tuesday{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: 30px;
+        top: 27px;
+        background: #EEEEEE;
+        color:white;
+        border-radius: 50%;
+        border: none
+    }
+
+    .btn-wednesday{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: 70px;
+        top: 27px;
+        background: #EEEEEE;
+        color:white;
+        border-radius: 50%;
+        border: none
+    }
+
+    
+    .btn-thursday{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: 110px;
+        top: 27px;
+        background: #EEEEEE;
+        color:white;
+        border-radius: 50%;
+        border: none
+    }
+
+    
+    .btn-friday{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: 150px;
+        top: 27px;
+        background: #EEEEEE;
+        color:white;
+        border-radius: 50%;
+        border: none
+    }
+
+    .btn-saturday{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: 190px;
+        top: 27px;
+        background: #EEEEEE;
+        color:white;
+        border-radius: 50%;
+        border: none
+    }
+
+    .btn-sunday{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: 230px;
+        top: 27px;
+        background: #EEEEEE;
+        color:white;
+        border-radius: 50%;
+        border: none
+    }
+
+    .work{
+        position: absolute;
+        width: 232px;
+        height: 18px;
+        left: 45px;
+        top: 213px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #565656;
+    }
+
+
+    #manha{
+        position: absolute;
+        width: 84px;
+        height: 40px;
+        left: 40px;
+        top: 250px;
+        border: none;
+        background: #EEEEEE;
+        border-radius: 5px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    #tarde{
+        position: absolute;
+        width: 84px;
+        height: 40px;
+        left: 130px;
+        top: 250px;
+        border: none;
+        background: #EEEEEE;
+        border-radius: 5px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    #noite{
+        position: absolute;
+        width: 84px;
+        height: 40px;
+        left: 220px;
+        top: 250px;
+        border: none;
+        background: #EEEEEE;
+        border-radius: 5px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+
+    .price{
+        position: absolute;
+        width: 201px;
+        height: 18px;
+        left: 45px;
+        top: 340px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #565656;
+    }
+
+    .price input {
+        
+        position: absolute;
+        width: 271px;
+        height: 40px;
+        left: -5px;
+        top: 26px;
+        text-align: center;
+        color: #EE7EC2;
+        border: 1px solid #CCCCCC;
+        box-sizing: border-box;
+        text-align: center;
+        border-radius: 5px;
+    }
+    
+    #money {
+        
+        position: relative;
+        width: 56px;
+        height: 15px;
+        left: 42px;
+        top: 378px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #EE7EC2;
+    }
+
+    .create{
+        position: absolute;
+        width: 271px;
+        height: 50px;
+        left: 52px;
+        top: 547px;
+        font-family: 'Quicksand';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+        background: linear-gradient(100.97deg, #F180C1 4.55%, #A450C9 95.79%);
+        border-radius: 5px;
+    }
+
+
+
+
+}

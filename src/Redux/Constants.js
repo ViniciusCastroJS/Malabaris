@@ -1,0 +1,7 @@
+export const FETCH_EVENTS_REQUEST = 'FETCH_EVENTS_REQUEST';
+export const FETCH_EVENTS_SUCESS = 'FETCH_EVENTS_SUCESS';
+
+
+export const SIGN_NAME = 'SIGN_NAME';
+export const SIGN_EMAIL = 'SIGN_EMAIL';
+
